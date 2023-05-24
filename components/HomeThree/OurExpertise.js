@@ -65,7 +65,7 @@ const OurExpertise = () => {
                     <i className="icofont-ui-call"></i>
                   </div>
                   <h3>Emergency Call</h3>
-                  <p>+07 554 332 322</p>
+                  <p>(888) 123-1234</p>
                 </div>
               </div>
             </div>

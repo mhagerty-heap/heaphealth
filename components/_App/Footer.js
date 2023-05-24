@@ -20,8 +20,8 @@ const Footer = () => {
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>
-                      <a href="tel:+07554332322">Call: +07 554 332 322</a>
-                      <a href="tel:+236256256365">Call: +236 256 256 365</a>
+                      <a href="tel:+07554332322">Call: (888) 123-1234</a>
+                      <a href="tel:+236256256365">Call: (888) 123-1234</a>
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
@@ -132,10 +132,7 @@ const Footer = () => {
         <div className="container">
           <div className="copyright-item">
             <p>
-              Copyright &copy; {currentYear} Design & Developed by{" "}
-              <a href="https://hibootstrap.com/" target="_blank">
-                HiBootstrap
-              </a>
+              Copyright &copy; {currentYear} Design & Developed by{" "} Heap
             </p>
           </div>
         </div>
