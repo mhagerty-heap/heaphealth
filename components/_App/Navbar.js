@@ -99,36 +99,13 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/doctors/"
+                      className={`nav-link ${
+                        currentPath == "/doctors/" && "active"
+                      }`}
                     >
                       Doctors
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/doctors/"
-                          className={`nav-link ${
-                            currentPath == "/doctors/" && "active"
-                          }`}
-                        >
-                          Doctors
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/doctor-details/"
-                          className={`nav-link ${
-                            currentPath == "/doctor-details/" && "active"
-                          }`}
-                        >
-                          Doctor Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
