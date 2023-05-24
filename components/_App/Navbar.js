@@ -65,69 +65,14 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/"
+                      className={`nav-link ${
+                        currentPath == "/" && "active"
+                      }`}
                     >
                       Home
                     </Link>
 
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/"
-                          className={`nav-link ${
-                            currentPath == "/" && "active"
-                          }`}
-                        >
-                          Home Demo - 1
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-2/"
-                          className={`nav-link ${
-                            currentPath == "/index-2/" && "active"
-                          }`}
-                        >
-                          Home Demo - 2
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-3/"
-                          className={`nav-link ${
-                            currentPath == "/index-3/" && "active"
-                          }`}
-                        >
-                          Home Demo - 3
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-4/"
-                          className={`nav-link ${
-                            currentPath == "/index-4/" && "active"
-                          }`}
-                        >
-                          Home Demo - 4
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/index-5/"
-                          className={`nav-link ${
-                            currentPath == "/index-5/" && "active"
-                          }`}
-                        >
-                          Home Demo - 5
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
@@ -143,158 +88,13 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
-                    >
-                      Pages
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/appointment/"
-                          className={`nav-link ${
-                            currentPath == "/appointment/" && "active"
-                          }`}
-                        >
-                          Appointment
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/departments/"
-                          className={`nav-link ${
-                            currentPath == "/departments/" && "active"
-                          }`}
-                        >
-                          Departments
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/testimonials/"
-                          className={`nav-link ${
-                            currentPath == "/testimonials/" && "active"
-                          }`}
-                        >
-                          Testimonials
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/sign-up/"
-                          className={`nav-link ${
-                            currentPath == "/sign-up/" && "active"
-                          }`}
-                        >
-                          Sign Up
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/sign-in/"
-                          className={`nav-link ${
-                            currentPath == "/sign-in/" && "active"
-                          }`}
-                        >
-                          Sign In
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/faq/"
-                          className={`nav-link ${
-                            currentPath == "/faq/" && "active"
-                          }`}
-                        >
-                          FAQ's
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/404/"
-                          className={`nav-link ${
-                            currentPath == "/404/" && "active"
-                          }`}
-                        >
-                          404 Error Page
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/coming-soon/"
-                          className={`nav-link ${
-                            currentPath == "/coming-soon/" && "active"
-                          }`}
-                        >
-                          Coming Soon
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/privacy-policy/"
-                          className={`nav-link ${
-                            currentPath == "/privacy-policy/" && "active"
-                          }`}
-                        >
-                          Privacy Policy
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/terms-condition/"
-                          className={`nav-link ${
-                            currentPath == "/terms-condition/" && "active"
-                          }`}
-                        >
-                          Terms & Conditions
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/services/"
+                      className={`nav-link ${
+                        currentPath == "/services/" && "active"
+                      }`}
                     >
                       Services
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/services/"
-                          className={`nav-link ${
-                            currentPath == "/services/" && "active"
-                          }`}
-                        >
-                          Services
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/service-details/"
-                          className={`nav-link ${
-                            currentPath == "/service-details/" && "active"
-                          }`}
-                        >
-                          Service Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
@@ -333,36 +133,13 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/blog/"
+                      className={`nav-link ${
+                        currentPath == "/blog/" && "active"
+                      }`}
                     >
                       Blog
                     </Link>
-
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link
-                          href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
-                        >
-                          Blog
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/blog-details/"
-                          className={`nav-link ${
-                            currentPath == "/blog-details/" && "active"
-                          }`}
-                        >
-                          Blog Details
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="nav-item">
