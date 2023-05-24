@@ -102,7 +102,7 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Sarah Taylor</Link>
+                    <Link href="/doctor-details">Dr. Nick Riviera</Link>
                   </h3>
                   <span>Dental Surgeon</span>
                 </div>
