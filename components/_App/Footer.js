@@ -15,8 +15,8 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      <a href="mailto:info@disin.com">info@disin.com</a>
-                      <a href="mailto:hello@disin.com">hello@disin.com</a>
+                      <a href="mailto:info@biosone.com">info@biosone.com</a>
+                      <a href="mailto:hello@biosone.com">hello@biosone.com</a>
                     </li>
                     <li>
                       <i className="icofont-stock-mobile"></i>

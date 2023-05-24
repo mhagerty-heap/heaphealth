@@ -36,7 +36,7 @@ const DoctorDetails = () => {
                     </li>
                     <li>
                       <i className="icofont-ui-message"></i>
-                      hello@disin.com
+                      hello@biosone.com
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>

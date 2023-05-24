@@ -17,9 +17,9 @@ const TopHeader = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:hello@disin.com">
+                      <a href="mailto:hello@biosone.com">
                         <i className="icofont-ui-message"></i>
-                        hello@disin.com
+                        hello@biosone.com
                       </a>
                     </li>
                   </ul>
