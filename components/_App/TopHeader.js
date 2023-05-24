@@ -13,7 +13,7 @@ const TopHeader = () => {
                     <li>
                       <a href="tel:+07554332322">
                         <i className="icofont-ui-call"></i>
-                        Call : +07 554 332 322
+                        Call : (888) 123-1234
                       </a>
                     </li>
                     <li>
@@ -21,10 +21,6 @@ const TopHeader = () => {
                         <i className="icofont-ui-message"></i>
                         hello@disin.com
                       </a>
-                    </li>
-                    <li>
-                      <i className="icofont-location-pin"></i>
-                      210-27 Quadra, Canada
                     </li>
                   </ul>
                 </div>

@@ -29,8 +29,7 @@ const ContactInfo = () => {
               <div className="location-item">
                 <i className="icofont-ui-call"></i>
                 <h3>Phone</h3>
-                <p>+07 5554 3332 322</p>
-                <p>+07 5554 3332 322</p>
+                <p>(888) 123-1234</p>
               </div>
             </div>
           </div>

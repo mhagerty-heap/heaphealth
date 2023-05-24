@@ -11,7 +11,7 @@ const ContactInfo = () => {
                 <i className="icofont-ui-call"></i>
                 <div className="emergency-inner">
                   <h3>Emergency Call</h3>
-                  <p>+07 5554 3332 322</p>
+                  <p>(888) 123-1234</p>
                   <p>+07 5554 3332 456</p>
                 </div>
               </div>
