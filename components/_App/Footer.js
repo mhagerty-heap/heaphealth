@@ -25,7 +25,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <i className="icofont-location-pin"></i>
-                      210-27 Quadra, Market Street, Victoria Canada
+                      225 Bush Street, San Francisco, CA 94104 USA
                     </li>
                   </ul>
                 </div>

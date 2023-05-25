@@ -22,7 +22,7 @@ const ContactInfo = () => {
                 <i className="icofont-location-pin"></i>
                 <div className="emergency-inner">
                   <h3>Location</h3>
-                  <p>2108-267 Road Quadra, Toronto, Canada Victiria Canada</p>
+                  <p>225 Bush Street, San Francisco, CA 94104</p>
                 </div>
               </div>
             </div>
