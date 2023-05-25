@@ -11,9 +11,7 @@ const MainBanner = () => {
               <div className="banner-item">
                 <h1>Your Healthy Life is Our First Priority</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida.{" "}
+                  With its advanced technology, BiosOne aims to revolutionize the healthcare industry by empowering individuals to take control of their well-being and make informed decisions for a healthier life.{" "}
                 </p>
 
                 <div className="common-btn-two">

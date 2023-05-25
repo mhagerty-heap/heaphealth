@@ -48,10 +48,7 @@ const AboutOurHospital = () => {
               <div className="hospital-item hospital-right">
                 <h2>About Our Hospital</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  BiosOne operates a state-of-the-art hospital that integrates cutting-edge technology and compassionate care to deliver exceptional medical services to patients.
                 </p>
 
                 <ul>
