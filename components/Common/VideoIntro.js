@@ -183,7 +183,7 @@ const VideoIntro = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="bk7McNUjWgw"
+        videoId="A_ACKp_OvFk"
         onClose={() => setOpen(false)}
       />
     </>
