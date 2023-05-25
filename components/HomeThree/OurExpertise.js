@@ -38,7 +38,7 @@ const OurExpertise = () => {
                         <i className="icofont-check-circled"></i>
                         <h3>Neurology</h3>
                         <p>
-                          Diagnosis and treatment of all categories of conditions and disease involving the brain, spinal cord, and peripheral nerves
+                          Diagnosis and treatment of all categories of conditions and disease involving the brain
                         </p>
                       </div>
                     </div>
