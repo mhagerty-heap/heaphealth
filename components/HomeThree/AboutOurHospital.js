@@ -54,15 +54,15 @@ const AboutOurHospital = () => {
                 <ul>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Browse our Website
+                    Browse our Website to learn more
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Choose Service
+                    Find Doctors that meet your requirements
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Choose Service
+                    Create Appointments
                   </li>
                 </ul>
 
