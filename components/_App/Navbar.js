@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   // Add active class
@@ -132,20 +133,12 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <div className="nav-srh">
-                <form>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="search"
-                    placeholder="Search..."
-                  />
-
-                  <button className="search-icon icon-search">
-                    <i className="icofont-search-1"></i>
-                  </button>
-                </form>
+              <div>
+                <Link href="/appointment/" target="_blank" rel="noreferrer">
+                    <Image src="/images/home-three/getAppointment.png" width="150" height="50" alt="Get Appointment"></Image>
+                </Link>
               </div>
+
             </nav>
           </div>
         </div>
