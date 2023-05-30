@@ -134,8 +134,8 @@ const Navbar = () => {
               </div>
 
               <div>
-                <Link href="/appointment/" target="_blank" rel="noreferrer">
-                    <Image src="/images/home-three/getAppointment.png" width="150" height="50" alt="Get Appointment"></Image>
+                <Link id="navBarAppointmentLink" href="/appointment/" target="_blank" rel="noreferrer">
+                    <Image id="navBarAppointmentImage" src="/images/home-three/getAppointment.png" width="150" height="50" alt="Get Appointment"></Image>
                 </Link>
               </div>
 

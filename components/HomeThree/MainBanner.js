@@ -15,7 +15,7 @@ const MainBanner = () => {
                 </p>
 
                 <div className="common-btn-two">
-                  <Link href="/appointment">Get Appointment</Link>
+                  <Link id="homepageGetAppointmentLink" href="/appointment">Get Appointment</Link>
                   <Link href="/about" className="cmn-btn-right-two">
                     Learn More
                   </Link>
