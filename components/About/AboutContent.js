@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const AboutContent = () => {
   return (
@@ -19,23 +19,20 @@ const AboutContent = () => {
                 <img src="/images/about-shape1.png" alt="About" />
                 <h2>About Our Hospital</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.{" "}
+                  BiosOne operates a state-of-the-art hospital that integrates cutting-edge technology and compassionate care to deliver exceptional medical services to patients.{" "}
                 </p>
                 <ul>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Browse Our Website
+                    Browse our Website to learn more
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Choose Service
+                    Find Doctors that meet your requirements
                   </li>
                   <li>
                     <i className="icofont-check-circled"></i>
-                    Send Messege
+                    Create Appointments
                   </li>
                 </ul>
               </div>

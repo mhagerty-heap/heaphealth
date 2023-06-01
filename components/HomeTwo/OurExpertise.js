@@ -18,36 +18,36 @@ const OurExpertise = () => {
                     <div className="col-sm-6 col-lg-6">
                       <div className="speciality-inner">
                         <i className="icofont-check-circled"></i>
-                        <h3>Child Care</h3>
+                        <h3>Cardiology</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, is consectetur adipiscing
+                          Health care for disorders of the heart and the cardiovascular system
                         </p>
                       </div>
                     </div>
                     <div className="col-sm-6 col-lg-6">
                       <div className="speciality-inner">
                         <i className="icofont-check-circled"></i>
-                        <h3>More Stuff</h3>
+                        <h3>Family Medicine</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, is consectetur adipiscing
+                          Provide continuing and comprehensive health care for the individual and their family
                         </p>
                       </div>
                     </div>
                     <div className="col-sm-6 col-lg-6">
                       <div className="speciality-inner">
                         <i className="icofont-check-circled"></i>
-                        <h3>Enough Lab</h3>
+                        <h3>Neurology</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, is consectetur adipiscing
+                          Diagnosis and treatment of all categories of conditions and disease involving the brain
                         </p>
                       </div>
                     </div>
                     <div className="col-sm-6 col-lg-6">
                       <div className="speciality-inner">
                         <i className="icofont-check-circled"></i>
-                        <h3>24 Hour Doctor</h3>
+                        <h3>Internal Medicine</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, is consectetur adipiscing
+                          Medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases.
                         </p>
                       </div>
                     </div>
