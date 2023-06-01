@@ -1,6 +1,33 @@
 import React from "react";
+import { useState } from 'react';
 
 const AppointmentForm = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [services, setServices] = useState("");
+  const [doctor, setDoctor] = useState("");
+  const [age, setAge] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(name);
+    console.log(email);
+    console.log(phone);
+    console.log(services);
+    console.log(doctor);
+    console.log(age);
+  };
+
+  const handleDoctorSelectChange = (event) => {
+    setDoctor(event.target.value)
+  }
+
+  const handleServicesSelectChange = (event) => {
+    setServices(event.target.value)
+  }
+
   return (
     <>
       <div className="appointment-area-two ptb-100">
@@ -16,7 +43,7 @@ const AppointmentForm = () => {
                 <span>We will confirm your appointment within 2 hours</span>
 
                 <div className="appointment-form">
-                  <form>
+                  <form id="appointmentForm" onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="form-group">
@@ -26,6 +53,8 @@ const AppointmentForm = () => {
                             type="text"
                             className="form-control"
                             placeholder="Enter Your Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
                           />
                         </div>
                       </div>
@@ -38,6 +67,8 @@ const AppointmentForm = () => {
                             type="email"
                             className="form-control"
                             placeholder="Enter Your Email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
                           />
                         </div>
                       </div>
@@ -50,6 +81,8 @@ const AppointmentForm = () => {
                             type="text"
                             className="form-control"
                             placeholder="Enter Your Number"
+                            value={phone}
+                            onChange={(e) => setPhone(e.target.value)}
                           />
                         </div>
                       </div>
@@ -61,7 +94,10 @@ const AppointmentForm = () => {
                           <select
                             className="form-control"
                             id="exampleFormControlSelect1"
+                            value={services}
+                            onChange={handleServicesSelectChange}
                           >
+                            <option>Choose Your Service</option>
                             <option>Cardiology</option>
                             <option>Family Medicine</option>
                             <option>Neurology</option>
@@ -77,6 +113,8 @@ const AppointmentForm = () => {
                           <select
                             className="form-control"
                             id="exampleFormControlSelect2"
+                            value={doctor}
+                            onChange={handleDoctorSelectChange}
                           >
                             <option>Choose Your Doctor</option>
                             <option>Dr. Sarah Fields</option>
@@ -100,6 +138,8 @@ const AppointmentForm = () => {
                             type="text"
                             className="form-control"
                             placeholder="Your Age"
+                            value={age}
+                            onChange={(e) => setAge(e.target.value)}
                           />
                         </div>
                       </div>
