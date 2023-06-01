@@ -10,8 +10,7 @@ const NewsletterForm = () => {
               <div className="newsletter-item">
                 <h2>Join Our Newsletter</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
+                  Stay up-to-date and informed with BiosOne's newsletter!
                 </p>
               </div>
             </div>

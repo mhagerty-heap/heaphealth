@@ -29,7 +29,7 @@ const Faq = () => {
       <div className="ptb-100">
         <div className="container">
           <div className="faq-content">
-            <h2>Dental Care</h2>
+            <h2>COVID Care</h2>
 
             <Accordion allowZeroExpanded preExpanded={["a"]}>
               <AccordionItem uuid="a">

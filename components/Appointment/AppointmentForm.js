@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const AppointmentForm = () => {
   return (
@@ -62,11 +62,10 @@ const AppointmentForm = () => {
                             className="form-control"
                             id="exampleFormControlSelect1"
                           >
-                            <option>Dental Care</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                            <option>Cardiology</option>
+                            <option>Family Medicine</option>
+                            <option>Neurology</option>
+                            <option>Internal Medicine</option>
                           </select>
                         </div>
                       </div>
@@ -80,9 +79,15 @@ const AppointmentForm = () => {
                             id="exampleFormControlSelect2"
                           >
                             <option>Choose Your Doctor</option>
-                            <option>John Smith</option>
-                            <option>Sarah Taylor</option>
-                            <option>Stevn King</option>
+                            <option>Dr. Sarah Fields</option>
+                            <option>Dr. Allen Smith</option>
+                            <option>Dr. Nick Riviera</option>
+                            <option>Dr. Mackenzie Smith</option>
+                            <option>Dr. April Backer</option>
+                            <option>Dr. Jason Macham</option>
+                            <option>Dr. John Fullbright</option>
+                            <option>Dr. Shania Warne</option>
+                            <option>Dr. Luis Moris</option>
                           </select>
                         </div>
                       </div>

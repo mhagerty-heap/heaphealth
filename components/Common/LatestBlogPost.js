@@ -21,13 +21,10 @@ const LatestBlogPost = () => {
                 <div className="blog-bottom">
                   <h3>
                     <Link href="/blog-details">
-                      In this hospital there are special surgeon
+                      In this hospital there are special surgeons
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
-                  </p>
+
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -56,10 +53,7 @@ const LatestBlogPost = () => {
                       World AIDS Day, designated on 1 December
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
-                  </p>
+
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -88,10 +82,7 @@ const LatestBlogPost = () => {
                       More than 80 clinical trials launch to test coronavirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et..
-                  </p>
+
                   <ul>
                     <li>
                       <Link href="/blog-details">

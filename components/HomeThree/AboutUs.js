@@ -24,8 +24,7 @@ const AboutUs = () => {
                     <div className="welcome-inner">
                       <h3>Certified Doctors</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.consectetur adipiscing elit.
+                        Certified Doctors with years of practice will professionally handle your care.
                       </p>
                     </div>
                   </li>
@@ -34,18 +33,16 @@ const AboutUs = () => {
                     <div className="welcome-inner">
                       <h3>Emergency 24 hours</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.consectetur adipiscing elit.
+                        Emergencies happen, and we're here 24 hours a day to assit you during your critical stay.
                       </p>
                     </div>
                   </li>
                   <li>
                     <i className="icofont-network"></i>
                     <div className="welcome-inner">
-                      <h3>Modern Technologey</h3>
+                      <h3>Modern Technology</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.consectetur adipiscing elit.
+                        BiosOne prides itself on using only the most effective and modern technology for its patients.
                       </p>
                     </div>
                   </li>

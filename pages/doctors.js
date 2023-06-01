@@ -47,10 +47,10 @@ const Doctors = () => {
                     <i className="icofont-hospital"></i>
                     <label>Category</label>
                     <select className="form-control">
-                      <option>Neurosurgeon</option>
+                      <option>Neurology</option>
                       <option>Cardiology</option>
-                      <option>Pathology</option>
-                      <option>Dental Care</option>
+                      <option>Internal Medicine</option>
+                      <option>Family Medicine</option>
                     </select>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Babatunde</Link>
+                    <Link href="/doctor-details">Dr. Sarah Fields</Link>
                   </h3>
                   <span>Neurosurgeon</span>
                 </div>
@@ -87,7 +87,7 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Addition Smith</Link>
+                    <Link href="/doctor-details">Dr. Allen Smith</Link>
                   </h3>
                   <span>Neurosurgeon</span>
                 </div>
@@ -104,7 +104,7 @@ const Doctors = () => {
                   <h3>
                     <Link href="/doctor-details">Dr. Nick Riviera</Link>
                   </h3>
-                  <span>Dental Surgeon</span>
+                  <span>Neurosurgeon</span>
                 </div>
               </div>
             </div>
@@ -117,9 +117,9 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Mac Smith</Link>
+                    <Link href="/doctor-details">Dr. Mackenzie Smith</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Cardiology</span>
                 </div>
               </div>
             </div>
@@ -132,9 +132,9 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Alinson Backer</Link>
+                    <Link href="/doctor-details">Dr. April Backer</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Cardiology</span>
                 </div>
               </div>
             </div>
@@ -147,9 +147,9 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Jas Macham</Link>
+                    <Link href="/doctor-details">Dr. Jason Macham</Link>
                   </h3>
-                  <span>Dental Surgeon</span>
+                  <span>Cardiology</span>
                 </div>
               </div>
             </div>
@@ -162,9 +162,9 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. John Micheal</Link>
+                    <Link href="/doctor-details">Dr. John Fullbright</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Internal Medicine</span>
                 </div>
               </div>
             </div>
@@ -177,9 +177,9 @@ const Doctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Shane Warne</Link>
+                    <Link href="/doctor-details">Dr. Shania Warne</Link>
                   </h3>
-                  <span>Neurosurgeon</span>
+                  <span>Family Medicine</span>
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ const Doctors = () => {
                   <h3>
                     <Link href="/doctor-details">Dr. Luis Moris</Link>
                   </h3>
-                  <span>Dental Surgeon</span>
+                  <span>Family Medicine</span>
                 </div>
               </div>
             </div>

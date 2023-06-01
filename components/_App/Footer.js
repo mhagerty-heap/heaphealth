@@ -41,16 +41,13 @@ const Footer = () => {
                       <Link href="/about">About us</Link>
                     </li>
                     <li>
-                      <Link href="/about">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog-details">Our Expertise</Link>
+                      <Link href="/blog">Blog</Link>
                     </li>
                     <li>
                       <Link href="/faq">Faq</Link>
                     </li>
                     <li>
-                      <Link href="/doctor">Doctors</Link>
+                      <Link href="/doctors">Doctors</Link>
                     </li>
                     <li>
                       <Link href="/contact">Contact us</Link>
@@ -66,22 +63,7 @@ const Footer = () => {
                   <h3>Our Services</h3>
                   <ul>
                     <li>
-                      <Link href="/service-details">Dental Care</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Cardiology</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Hijama Therapy</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Massage Therapy</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Ambluance Sevices</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details">Medicine</Link>
+                      <Link href="/services">Services</Link>
                     </li>
                   </ul>
                 </div>

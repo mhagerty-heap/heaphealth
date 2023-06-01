@@ -15,21 +15,11 @@ const VideoIntro = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="video-item">
-                      <div
-                        onClick={() => setOpen(true)}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
 
                       <div className="video-content">
                         <h3>Hospital Introduction</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.{" "}
+                          At BiosOne Hospital, we take great pride in providing exceptional healthcare services that go beyond the ordinary. Our commitment to excellence, combined with a deep sense of compassion, sets us apart as a leading healthcare institution.{" "}
                         </p>
                       </div>
                     </div>
@@ -45,24 +35,11 @@ const VideoIntro = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
 
                       <div className="video-content">
                         <h3>About Our Pharmacy</h3>
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantium, totam
-                          rem aperiam, eaque ipsa quae ab illo inventore
-                          veritatis et quasi architecto beatae vitae dicta sunt
-                          explicabo. Nemo enim ipsam voluptatem.
+                          BiosOne Hospital's in-house pharmacy stands as a testament to our commitment to comprehensive and convenient healthcare, providing an exceptional level of service, expertise, and personalized care to our patients.
                         </p>
                       </div>
                     </div>
@@ -78,23 +55,11 @@ const VideoIntro = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
+
                       <div className="video-content">
                         <h3>Our reasearch center and lab</h3>
                         <p>
-                          But I must explain to you how all this mistaken idea
-                          of denouncing pleasure and praising pain was born and
-                          I will give you a complete account of the system, and
-                          expound the actual teachings of the great explorer of
-                          the truth, the master
+                          BiosOne Hospital's state-of-the-art research center and laboratory are at the forefront of medical innovation, fostering groundbreaking discoveries and advancements in healthcare that have the potential to revolutionize patient care and improve lives worldwide.
                         </p>
                       </div>
                     </div>
@@ -110,23 +75,11 @@ const VideoIntro = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
+
                       <div className="video-content">
                         <h3>CCU & ICU</h3>
                         <p>
-                          At vero eos et accusamus et iusto odio dignissimos
-                          ducimus qui blanditiis praesentium voluptatum deleniti
-                          atque corrupti quos dolores et quas molestias
-                          excepturi sint occaecati cupiditate non provident,
-                          similique sunt in culpa qui officia.
+                          At BiosOne Hospital, our CCU (Critical Care Unit) and ICU (Intensive Care Unit) represent the pinnacle of advanced medical care, where every aspect of patient well-being is meticulously prioritized.
                         </p>
                       </div>
                     </div>
@@ -142,23 +95,11 @@ const VideoIntro = () => {
                 <div className="d-table-cell">
                   <div className="container">
                     <div className="video-item">
-                      <div
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="popup-youtube"
-                      >
-                        <i className="icofont-ui-play"></i>
-                      </div>
+
                       <div className="video-content">
                         <h3>Our Doctors</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecenas accumsan lacus
-                          vel facilisis.{" "}
+                          BiosOne Hospital boasts a team of doctors who are the epitome of expertise and compassion. Each physician at BiosOne is not only highly skilled and extensively trained in their respective fields but also driven by a genuine passion for improving the lives of their patients.{" "}
                         </p>
                       </div>
                     </div>

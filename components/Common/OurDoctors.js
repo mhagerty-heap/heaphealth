@@ -19,7 +19,7 @@ const OurDoctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Babatunde</Link>
+                    <Link href="/doctor-details">Dr. Sarah Fields</Link>
                   </h3>
                   <span>Neurosurgeon</span>
                 </div>
@@ -34,7 +34,7 @@ const OurDoctors = () => {
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/doctor-details">Dr. Addision Smith</Link>
+                    <Link href="/doctor-details">Dr. Allen Smith</Link>
                   </h3>
                   <span>Neurosurgeon</span>
                 </div>
@@ -51,14 +51,14 @@ const OurDoctors = () => {
                   <h3>
                     <Link href="/doctor-details">Dr. Nick Riviera</Link>
                   </h3>
-                  <span>Dental Surgeon</span>
+                  <span>Neurosurgeon</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="doctor-btn">
-            <Link href="/doctor-details">See All</Link>
+            <Link href="/doctors">See All</Link>
           </div>
         </div>
       </div>
