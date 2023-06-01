@@ -11,7 +11,7 @@ const AppointmentForm = () => {
   const [age, setAge] = useState("");
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    //event.preventDefault();
     var currentDateAndTime = new Date().toLocaleString();
     if(email !== null) {
       window.heap.identify(email);
@@ -54,6 +54,7 @@ const AppointmentForm = () => {
                             placeholder="Enter Your Name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+                            id="name"
                           />
                         </div>
                       </div>
@@ -68,6 +69,7 @@ const AppointmentForm = () => {
                             placeholder="Enter Your Email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
+                            id="email"
                           />
                         </div>
                       </div>
@@ -82,6 +84,7 @@ const AppointmentForm = () => {
                             placeholder="Enter Your Number"
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
+                            id="phone"
                           />
                         </div>
                       </div>
@@ -92,7 +95,7 @@ const AppointmentForm = () => {
                           <label>Services</label>
                           <select
                             className="form-control"
-                            id="exampleFormControlSelect1"
+                            id="services"
                             value={services}
                             onChange={handleServicesSelectChange}
                           >
@@ -111,7 +114,7 @@ const AppointmentForm = () => {
                           <label>Doctor</label>
                           <select
                             className="form-control"
-                            id="exampleFormControlSelect2"
+                            id="doctor"
                             value={doctor}
                             onChange={handleDoctorSelectChange}
                           >
@@ -139,6 +142,7 @@ const AppointmentForm = () => {
                             placeholder="Your Age"
                             value={age}
                             onChange={(e) => setAge(e.target.value)}
+                            id="age"
                           />
                         </div>
                       </div>

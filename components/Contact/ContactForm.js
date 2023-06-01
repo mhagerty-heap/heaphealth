@@ -73,6 +73,7 @@ const ContactForm = () => {
                             className="form-control"
                             placeholder="Your name"
                             value={contact.name}
+                            id="name"
                             onChange={handleChange}
                             required
                           />
@@ -87,6 +88,7 @@ const ContactForm = () => {
                             className="form-control"
                             placeholder="Your email address"
                             value={contact.email}
+                            id="email"
                             onChange={handleChange}
                             required
                           />
@@ -100,6 +102,7 @@ const ContactForm = () => {
                             name="number"
                             className="form-control"
                             value={contact.number}
+                            id="phone"
                             onChange={handleChange}
                             placeholder="Your Phone"
                             required
@@ -115,6 +118,7 @@ const ContactForm = () => {
                             className="form-control"
                             placeholder="Your Subject"
                             value={contact.subject}
+                            id="subject"
                             onChange={handleChange}
                             required
                           />
@@ -130,6 +134,7 @@ const ContactForm = () => {
                             className="form-control"
                             placeholder="Your message..."
                             value={contact.text}
+                            id="message"
                             onChange={handleChange}
                             required
                           ></textarea>
