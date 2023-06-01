@@ -12,12 +12,14 @@ const AppointmentForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(name);
-    console.log(email);
-    console.log(phone);
-    console.log(services);
-    console.log(doctor);
-    console.log(age);
+    var currentDateAndTime = new Date().toLocaleString();
+    if(email !== null) {
+      window.heap.identify(email);
+      heap.track('Appointment', {AppointmentName: name, AppointmentServices: services, AppointmentDoctor: doctor, AppointmentAge: age, AppointmentDate: currentDateAndTime})
+    }
+
+
+
   };
 
   const handleDoctorSelectChange = (event) => {
