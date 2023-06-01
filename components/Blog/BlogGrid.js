@@ -17,13 +17,9 @@ const BlogGrid = () => {
                 <div className="blog-bottom">
                   <h3>
                     <Link href="/blog-details">
-                      In this hospital there are special surgeon.
+                      In this hospital there are special surgeons.
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -52,10 +48,6 @@ const BlogGrid = () => {
                       World AIDS Day, designated on 1 December
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -84,10 +76,6 @@ const BlogGrid = () => {
                       More than 80 clinical trials launch to test coronavirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -116,10 +104,6 @@ const BlogGrid = () => {
                       We always give the best from us
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -148,10 +132,6 @@ const BlogGrid = () => {
                       Be aware about the coronavirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -180,10 +160,6 @@ const BlogGrid = () => {
                       No one find any medicines to prevent evolovirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -212,10 +188,6 @@ const BlogGrid = () => {
                       Thailand is trying to make vaccine of coronavirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -244,10 +216,6 @@ const BlogGrid = () => {
                       Already 1932 people have died in China
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
@@ -276,10 +244,6 @@ const BlogGrid = () => {
                       30+ countries have affected by coronavirus
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
                   <ul>
                     <li>
                       <Link href="/blog-details">
