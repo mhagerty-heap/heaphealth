@@ -10,19 +10,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog1-details">
                     <img src="/images/blog/blog1.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog1-details">
                       In this hospital there are special surgeons.
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog1-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -38,19 +38,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog2-details">
                     <img src="/images/blog/blog2.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog2-details">
                       World AIDS Day, designated on 1 December
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog2-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -72,13 +72,13 @@ const BlogGrid = () => {
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog3-details">
                       More than 80 clinical trials launch to test coronavirus
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog3-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -94,19 +94,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog4-details">
                     <img src="/images/blog/blog4.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog4-details">
                       We always give the best from us
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog4-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -122,19 +122,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog5-details">
                     <img src="/images/blog/blog5.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog5-details">
                       Be aware about the coronavirus
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog5-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -150,19 +150,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog6-details">
                     <img src="/images/blog/blog6.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog6-details">
                       No one find any medicines to prevent evolovirus
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog6-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -178,19 +178,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog7-details">
                     <img src="/images/blog/blog7.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog7-details">
                       Thailand is trying to make vaccine of coronavirus
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog7-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -206,19 +206,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog8-details">
                     <img src="/images/blog/blog8.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog8-details">
                       Already 1932 people have died in China
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog8-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
@@ -234,19 +234,19 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="/blog9-details">
                     <img src="/images/blog/blog9.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
+                    <Link href="/blog9-details">
                       30+ countries have affected by coronavirus
                     </Link>
                   </h3>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="/blog9-details">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
