@@ -1,6 +1,18 @@
 import React from "react";
+import { useState } from 'react';
 
 const NewsletterForm = () => {
+
+const [email, setEmail] = useState("");
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+  var currentDateAndTime = new Date().toLocaleString();
+  if(email !== null) {
+    window.heap.identify(email);
+    heap.track('Newsletter', {NewsletterSignUpDate: currentDateAndTime})
+  }
+};
   return (
     <>
       <div className="newsletter-area ptb-100">
@@ -17,12 +29,14 @@ const NewsletterForm = () => {
             <div className="col-lg-6">
               <div className="newsletter-item">
                 <div className="newsletter-form">
-                  <form className="newsletter-form">
+                  <form className="newsletter-form" id="newsletterForm" onSubmit={handleSubmit}>
                     <input
                       type="email"
                       className="form-control"
                       placeholder="Enter Your Email"
                       name="EMAIL"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       required
                     />
 
