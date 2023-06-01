@@ -35,18 +35,22 @@ const ContactForm = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-      const response = await axios.post(url, payload);
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
-    } catch (error) {
-      console.log(error);
+    //e.preventDefault();
+    if(contact.email !== null) {
+      window.heap.identify(contact.email);
+      heap.track('ContactForm', {ContactFormName: contact.name, ContactFormSubject: contact.subject, ContactFormText: contact.text})
     }
+    // try {
+    //   const url = `${baseUrl}/api/contact`;
+    //   const { name, email, number, subject, text } = contact;
+    //   const payload = { name, email, number, subject, text };
+    //   const response = await axios.post(url, payload);
+    //   console.log(response);
+    //   setContact(INITIAL_STATE);
+    //   alertContent();
+    // } catch (error) {
+    //   console.log(error);
+    // }
   };
 
   return (
