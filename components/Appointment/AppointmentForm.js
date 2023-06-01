@@ -17,9 +17,6 @@ const AppointmentForm = () => {
       window.heap.identify(email);
       heap.track('Appointment', {AppointmentName: name, AppointmentServices: services, AppointmentDoctor: doctor, AppointmentAge: age, AppointmentDate: currentDateAndTime})
     }
-
-
-
   };
 
   const handleDoctorSelectChange = (event) => {
