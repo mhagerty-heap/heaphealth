@@ -12,11 +12,10 @@ const ServicesCard = () => {
                 <div className="service-front">
                   <i className="icofont-doctor"></i>
                   <Link href="/service-details">
-                    <h3>Expert Doctor</h3>
+                    <h3>Expert Doctors</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne employs Speciality-focused professionals to handle care.
                   </p>
                 </div>
               </div>
@@ -27,11 +26,10 @@ const ServicesCard = () => {
                 <div className="service-front">
                   <i className="icofont-prescription"></i>
                   <Link href="/service-details">
-                    <h3>Diagnosis</h3>
+                    <h3>1:1 Treatment</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne focused on the patient first, with one main point of contact
                   </p>
                 </div>
               </div>
@@ -42,11 +40,10 @@ const ServicesCard = () => {
                 <div className="service-front">
                   <i className="icofont-patient-file"></i>
                   <Link href="/service-details">
-                    <h3>Pathology</h3>
+                    <h3>Family Medicine</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne provide comprehensive health care for you and your family
                   </p>
                 </div>
               </div>
@@ -57,11 +54,10 @@ const ServicesCard = () => {
                 <div className="service-front">
                   <i className="icofont-tooth"></i>
                   <Link href="/service-details">
-                    <h3>Dental Care</h3>
+                    <h3>Emergency Dental Care</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne is recognized as a world leader in emergency dental care.
                   </p>
                 </div>
               </div>
@@ -75,8 +71,7 @@ const ServicesCard = () => {
                     <h3>Cardiology</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne is renonwned for their care for disorders of the heart and the cardiovascular system
                   </p>
                 </div>
               </div>
@@ -87,11 +82,10 @@ const ServicesCard = () => {
                 <div className="service-front">
                   <i className="icofont-drug"></i>
                   <Link href="/service-details">
-                    <h3>Medicine</h3>
+                    <h3>On-Site Prescriptions</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne manages an in-house pharmarcy fulfillment service with fast turnaround times.
                   </p>
                 </div>
               </div>
@@ -105,8 +99,7 @@ const ServicesCard = () => {
                     <h3>Neurology</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne handles all conditions and disease involving the brain and spinal cord
                   </p>
                 </div>
               </div>
@@ -120,8 +113,7 @@ const ServicesCard = () => {
                     <h3>Ambulance</h3>
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod
+                    BiosOne can dispatch on-call ambulances 24x7, 365 days a year with a 100 mile radius
                   </p>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 
 const ServiceDetailsContent = () => {
   return (
@@ -10,40 +10,14 @@ const ServiceDetailsContent = () => {
 
             <h2>Our Hospital Always Provide Good Services</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+Our team of renowned doctors and specialists is dedicated to providing exceptional care, ensuring that every patient receives the highest standard of medical attention tailored to their specific needs. From routine check-ups to complex procedures, we prioritize the individual, fostering a trusted doctor-patient relationship built on open communication, empathy, and mutual respect. Our on-site pharmacy ensures convenient access to medications, while our emergency dental care services provide immediate relief for oral health emergencies. With specialties in cardiology and neurology, we offer advanced diagnostics, treatments, and ongoing management for cardiovascular and neurological conditions. Additionally, our ambulance care services ensure swift and efficient transportation during medical emergencies. At BiosOne Hospital, your health and well-being are our top priorities, and we are committed to delivering exceptional healthcare services with utmost compassion and expertise.
             </p>
 
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              optio rem magni, dolorum aut vel nostrum quae, fugit
-              necessitatibus eius perferendis. Quia optio tenetur pariatur
-              aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Sint optio rem magni, dolorum aut
-              vel nostrum quae, fugit necessitatibus eius perferendis. Quia
-              optio tenetur pariatur aliquam obcaecati enim quam eum?
+BiosOne Hospital has exceeded all my expectations in providing exceptional healthcare services. From the moment I walked in, I felt genuinely cared for and understood. The expertise and compassion of their doctors and staff are unmatched, ensuring that I received the best possible treatment tailored to my unique needs. Whether it was their attentive 1:1 care, prompt emergency response, or their comprehensive range of medical specialties, BiosOne Hospital has truly been a beacon of hope and healing for me. I am forever grateful for their unwavering dedication to my well-being and the positive impact they have made in my life.
             </blockquote>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
+
           </div>
 
           <div className="row">
@@ -54,23 +28,11 @@ const ServiceDetailsContent = () => {
             </div>
             <div className="col-lg-7">
               <div className="service-details-inner">
-                <h2>We Always Take Care Our Patient</h2>
+                <h2>We Always Take Care Our Patients</h2>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Architecto blanditiis obcaecati veritatis magnam pariatur
-                  molestiae in maxime. Animi quae vitae in inventore. Totam
-                  mollitia aspernatur provident veniam aperiam placeat impedit!
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Saepe rem natus nobis, dolorum nam excepturi iure autem nemo
-                  ducimus temporibus facere, est eum voluptatem, culpa optio
-                  fugit assumenda quod? Praesentium.
+                  At BiosOne Hospital, patient care is our unwavering priority. We believe that each individual who walks through our doors deserves the highest standard of care, compassion, and respect. From the moment you enter our facility, you will experience a patient-centered approach that places your well-being at the forefront of everything we do.
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  laudantium ullam, iure distinctio officia libero voluptatem
-                  obcaecati vero deleniti minima nemo itaque alias nisi eveniet
-                  soluta architecto quae laboriosam unde.
-                </p>
+
               </div>
             </div>
           </div>

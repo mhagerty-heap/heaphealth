@@ -15,52 +15,48 @@ const OurExpertise = () => {
               <div className="expertise-item">
                 <div className="row">
                   <div className="col-sm-6 col-lg-6">
-                    <Link href="/blog-details">
+
                       <div className="expertise-inner">
                         <i className="icofont-doctor-alt"></i>
-                        <h3>Certified Doctors</h3>
+                        <h3>Cardiology</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
+                          Health care for disorders of the heart and the cardiovascular system
                         </p>
                       </div>
-                    </Link>
+
                   </div>
                   <div className="col-sm-6 col-lg-6">
-                    <Link href="/blog-details">
+
                       <div className="expertise-inner">
                         <i className="icofont-stretcher"></i>
-                        <h3>Emergency</h3>
+                        <h3>Family Medicine</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
+                          Provide continuing and comprehensive health care for the individual and their family
                         </p>
                       </div>
-                    </Link>
+
                   </div>
                   <div className="col-sm-6 col-lg-6">
-                    <Link href="/blog-details">
+
                       <div className="expertise-inner">
                         <i className="icofont-network"></i>
-                        <h3>Teachnology</h3>
+                        <h3>Neurology</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
+                          Diagnosis and treatment of all categories of conditions and disease involving the brain
                         </p>
                       </div>
-                    </Link>
+
                   </div>
                   <div className="col-sm-6 col-lg-6">
-                    <Link href="/blog-details">
+
                       <div className="expertise-inner">
                         <i className="icofont-ambulance-cross"></i>
-                        <h3>Ambulance</h3>
+                        <h3>Internal Medicine</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
+                          Medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases.
                         </p>
                       </div>
-                    </Link>
+
                   </div>
                 </div>
               </div>
