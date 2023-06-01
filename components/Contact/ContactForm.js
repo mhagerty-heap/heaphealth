@@ -63,7 +63,7 @@ const ContactForm = () => {
                 <div className="drop-left">
                   <h2>Drop your message for any info or question</h2>
 
-                  <form onSubmit={handleSubmit}>
+                  <form id="contactForm" onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
                         <div className="form-group">
