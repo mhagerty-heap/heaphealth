@@ -1,8 +1,26 @@
 import React from "react";
 import Link from "next/link";
+import { useState } from 'react';
 
 const Footer = () => {
+
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
   const currentYear = new Date().getFullYear();
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value)
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    var currentDateAndTime = new Date().toLocaleString();
+    heap.track('Feedback', {FeedbackMessage: message, FeedbackDate: currentDateAndTime})
+  };
+
+
+
   return (
     <>
       <footer className="pt-100 pb-70">
@@ -74,12 +92,14 @@ const Footer = () => {
               <div className="footer-item">
                 <div className="footer-feedback">
                   <h3>Feedback</h3>
-                  <form>
+                  <form id="feedbackForm" onSubmit={handleSubmit}>
                     <div className="form-group">
                       <input
                         type="text"
                         className="form-control"
                         placeholder="Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                       />
                     </div>
                     <div className="form-group">
@@ -87,12 +107,16 @@ const Footer = () => {
                         type="text"
                         className="form-control"
                         placeholder="Phone"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                       />
                     </div>
                     <div className="form-group">
                       <textarea
                         className="form-control"
                         id="your_message"
+                        value={message}
+                        onChange={handleMessageChange}
                         rows="3"
                         placeholder="Message"
                       ></textarea>
