@@ -14,7 +14,7 @@ const Footer = () => {
   }
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    //event.preventDefault();
     var currentDateAndTime = new Date().toLocaleString();
     heap.track('Feedback', {FeedbackMessage: message, FeedbackDate: currentDateAndTime})
   };
@@ -99,6 +99,7 @@ const Footer = () => {
                         className="form-control"
                         placeholder="Name"
                         value={name}
+                        id="name"
                         onChange={(e) => setName(e.target.value)}
                       />
                     </div>
@@ -108,6 +109,7 @@ const Footer = () => {
                         className="form-control"
                         placeholder="Phone"
                         value={phone}
+                        id="phone"
                         onChange={(e) => setPhone(e.target.value)}
                       />
                     </div>
@@ -116,6 +118,7 @@ const Footer = () => {
                         className="form-control"
                         id="your_message"
                         value={message}
+                        id="message"
                         onChange={handleMessageChange}
                         rows="3"
                         placeholder="Message"

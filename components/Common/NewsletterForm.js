@@ -6,7 +6,7 @@ const NewsletterForm = () => {
 const [email, setEmail] = useState("");
 
 const handleSubmit = (event) => {
-  event.preventDefault();
+  //event.preventDefault();
   var currentDateAndTime = new Date().toLocaleString();
   if(email !== null) {
     window.heap.identify(email);
@@ -36,6 +36,7 @@ const handleSubmit = (event) => {
                       placeholder="Enter Your Email"
                       name="EMAIL"
                       value={email}
+                      id="email"
                       onChange={(e) => setEmail(e.target.value)}
                       required
                     />
