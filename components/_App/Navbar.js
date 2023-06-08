@@ -66,6 +66,7 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
+                      id="mainNavHome"
                       href="/"
                       className={`nav-link ${
                         currentPath == "/" && "active"
@@ -78,6 +79,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      id="mainNavAbout"
                       href="/about/"
                       className={`nav-link ${
                         currentPath == "/about/" && "active"
@@ -89,6 +91,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      id="mainNavServices"
                       href="/services/"
                       className={`nav-link ${
                         currentPath == "/services/" && "active"
@@ -100,6 +103,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      id="mainNavDoctors"
                       href="/doctors/"
                       className={`nav-link ${
                         currentPath == "/doctors/" && "active"
@@ -111,6 +115,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      id="mainNavBlog"
                       href="/blog/"
                       className={`nav-link ${
                         currentPath == "/blog/" && "active"
@@ -122,6 +127,7 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
+                      id="mainNavContact"
                       href="/contact"
                       className={`nav-link ${
                         currentPath == "/blog/" && "active"
