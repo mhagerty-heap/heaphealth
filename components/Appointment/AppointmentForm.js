@@ -50,7 +50,7 @@ const AppointmentForm = () => {
                           <label>Name</label>
                           <input
                             type="text"
-
+                            className="form-control"
                             placeholder="Enter Your Name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
@@ -65,7 +65,7 @@ const AppointmentForm = () => {
                           <label>Email</label>
                           <input
                             type="email"
-
+                            className="form-control"
                             placeholder="Enter Your Email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -80,7 +80,7 @@ const AppointmentForm = () => {
                           <label>Phone</label>
                           <input
                             type="text"
-
+                            className="form-control"
                             placeholder="Enter Your Number"
                             value={phone}
                             onChange={(e) => setPhone(e.target.value)}
@@ -94,7 +94,7 @@ const AppointmentForm = () => {
                           <i className="icofont-hospital"></i>
                           <label>Services</label>
                           <select
-
+                            className="form-control"
                             id="services"
                             value={services}
                             onChange={handleServicesSelectChange}
@@ -113,7 +113,7 @@ const AppointmentForm = () => {
                           <i className="icofont-doctor"></i>
                           <label>Doctor</label>
                           <select
-
+                            className="form-control"
                             id="doctor"
                             value={doctor}
                             onChange={handleDoctorSelectChange}
@@ -138,7 +138,7 @@ const AppointmentForm = () => {
                           <label>Age</label>
                           <input
                             type="text"
-                            
+                            className="form-control"
                             placeholder="Your Age"
                             value={age}
                             onChange={(e) => setAge(e.target.value)}
