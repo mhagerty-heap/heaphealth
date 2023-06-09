@@ -16,6 +16,14 @@ const VideoIntro = () => {
                   <div className="container">
                     <div className="video-item">
 
+                      <div
+                        onClick={() => setOpen(true)}
+                        className="popup-youtube"
+                      >
+                        <i className="icofont-ui-play"></i>
+                      </div>
+
+
                       <div className="video-content">
                         <h3>Hospital Introduction</h3>
                         <p>
