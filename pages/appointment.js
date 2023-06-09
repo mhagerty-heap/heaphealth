@@ -12,6 +12,7 @@ const Appointment = () => {
 
       <Navbar />
 
+      {/*
       <PageBanner
         pageTitle="Appointment"
         homePageUrl="/"
@@ -19,6 +20,8 @@ const Appointment = () => {
         activePageText="Appointment"
         bgImage="page-title-one"
       />
+
+      */}
 
       <AppointmentForm />
 
