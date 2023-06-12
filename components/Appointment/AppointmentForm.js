@@ -149,7 +149,7 @@ const AppointmentForm = () => {
                     </div>
 
                     <div className="text-center">
-                      <button type="submit" className="btn appointment-btn">
+                      <button type="submit" className="btn appointment-btn" id="submitButton">
                         Submit
                       </button>
                     </div>
