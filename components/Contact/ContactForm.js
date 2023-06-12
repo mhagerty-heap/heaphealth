@@ -142,7 +142,7 @@ const ContactForm = () => {
                       </div>
 
                       <div className="col-lg-12 col-md-12 col-sm-12">
-                        <button type="submit" className="drop-btn">
+                        <button type="submit" className="drop-btn" id="sendMessageButton">
                           Send Message
                         </button>
                       </div>
