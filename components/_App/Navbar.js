@@ -140,7 +140,7 @@ const Navbar = () => {
               </div>
 
               <div>
-                <Link id="navBarAppointmentLink" href="/appointment/" target="_blank" rel="noreferrer">
+                <Link id="navBarAppointmentLink" href="/appointment/" className={`nav-link ${currentPath == "/appointment/" && "active"}`}>
                     <Image id="navBarAppointmentImage" src="/images/home-three/getAppointment.png" width="150" height="50" alt="Get Appointment"></Image>
                 </Link>
               </div>
