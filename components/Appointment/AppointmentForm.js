@@ -100,10 +100,10 @@ const AppointmentForm = () => {
                             onChange={handleServicesSelectChange}
                           >
                             <option>Choose Your Service</option>
-                            <option>Cardiology</option>
-                            <option>Family Medicine</option>
-                            <option>Neurology</option>
-                            <option>Internal Medicine</option>
+                            <option id="cardiologyOption">Cardiology</option>
+                            <option id="familyMedicineOption">Family Medicine</option>
+                            <option id="neurologyOption">Neurology</option>
+                            <option id="internalMedicineOption">Internal Medicine</option>
                           </select>
                         </div>
                       </div>
