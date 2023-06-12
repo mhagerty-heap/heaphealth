@@ -119,15 +119,15 @@ const AppointmentForm = () => {
                             onChange={handleDoctorSelectChange}
                           >
                             <option>Choose Your Doctor</option>
-                            <option>Dr. Sarah Fields</option>
-                            <option>Dr. Allen Smith</option>
-                            <option>Dr. Nick Riviera</option>
-                            <option>Dr. Mackenzie Smith</option>
-                            <option>Dr. April Backer</option>
-                            <option>Dr. Jason Macham</option>
-                            <option>Dr. John Fullbright</option>
-                            <option>Dr. Shania Warne</option>
-                            <option>Dr. Luis Moris</option>
+                            <option id="sarahFieldsOption">Dr. Sarah Fields</option>
+                            <option id="allenSmithOption">Dr. Allen Smith</option>
+                            <option id="niceRivieraOption">Dr. Nick Riviera</option>
+                            <option id="mackenzieSmithOption">Dr. Mackenzie Smith</option>
+                            <option id="aprilBackerOption">Dr. April Backer</option>
+                            <option id="jasonMachamOption">Dr. Jason Macham</option>
+                            <option id="johnFullBrightOption">Dr. John Fullbright</option>
+                            <option id="shaniaWarneOption">Dr. Shania Warne</option>
+                            <option id="luisMorisOption">Dr. Luis Moris</option>
                           </select>
                         </div>
                       </div>
